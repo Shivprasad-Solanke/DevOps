@@ -1,0 +1,29 @@
+# Local Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Terraform crash logs
+crash.log
+
+# Sensitive files (if created)
+*.tfvars
+!example.tfvars # Allow a safe example file for variables
+
+# Ignore any .env files if used for credentials
+.env
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE or Editor files
+.vscode/
+.idea/
+*.iml
+
+# Backup files
+*.bak
+*~
