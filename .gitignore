@@ -1,0 +1,21 @@
+# Ignore Terraform local files
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Ignore temporary files or logs
+*.tfstate
+*.tfstate.backup
+*.log
+
+# Ignore personal or secret files
+*.tfvars
+*.tfvars.json
+*.env
+
+# Ignore crash log
+crash.log
+
+# Ignore IDE-specific or system files
+.vscode/
+.DS_Store
+*.swp
