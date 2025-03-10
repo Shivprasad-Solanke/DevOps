@@ -13,7 +13,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  cluster_name = "terraform-cluster-${random_string.suffix.result}"
+  cluster_name = "prometheous-${random_string.suffix.result}"
 }
 
 resource "random_string" "suffix" {
